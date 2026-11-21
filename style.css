@@ -33,10 +33,16 @@
         }
 
         .popup-box button {
-            background: #007bff;
+            background: #ffb300;
             color: white;
             border: none;
             padding: 10px 30px;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        .popup-box button:hover {
+            background: #ffa500;
+            transition: background 0.3s;
+            color: rgb(225, 13, 154);
         }
